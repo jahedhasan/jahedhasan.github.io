@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CV - Jahed Hasan</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'/>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel='stylesheet' href='style.css'/>
+  <link rel='icon' href='favicon.ico' />
+</head>
+<body class="my-4">
+  <div class="container">
+    <h2>My skill list</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Technology</th>
+          <th>Number of Projects</th>
+          <th>Worked Around / Years</th>
+          <!-- <th>Rating(out of 10)</th> -->
+        </tr>
+      </thead>
+      <tbody id="skills">
+      </tbody>
+    </table>
+  </div>
+<script src='skills.js'></script>
+<script>
+(function () {
+var App = {
+  init: function () {
+    this.domCached()
+    this.render()
+  },
+  skills: skills,
+  domCached: function () {
+    this.skill = document.getElementById('skills')
+  },
+  generateTd: function (tdValue, tr) {
+    let td = document.createElement('td');
+    let text = document.createTextNode(tdValue);
+    td.appendChild(text);
+    tr.appendChild(td);
+  },
+  render: function () {
+    this.skills.forEach(skill => {
+      let tr = document.createElement('tr');
+      this.generateTd(skill.technology, tr)
+      this.generateTd(skill.projects, tr)
+      this.generateTd(skill.exeperiences, tr)
+      // this.generateTd(skill.rating, tr)
+      this.skill.appendChild(tr);
+    })
+  }
+}
+App.init();
+
+}()) 
+  
+</script>
+</body>
+</html>

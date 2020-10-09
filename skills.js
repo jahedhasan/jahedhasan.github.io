@@ -1,0 +1,98 @@
+var skills = [
+  {
+    technology: 'Html',
+    projects: '50+',
+    exeperiences: '4+',
+    rating: 8, 
+  },
+  {
+    technology: 'Css',
+    projects: '50+',
+    exeperiences: '4+',
+    rating: 8, 
+  },
+  // {
+  //   technology: 'JS',
+  //   projects: '100+',
+  //   exeperiences: '5+',
+  //   rating: 8, 
+  // },
+  // {
+  //   technology: 'jQuery',
+  //   projects: '100+',
+  //   exeperiences: '5+',
+  //   rating: 8, 
+  // },
+  {
+    technology: 'PHP',
+    projects: '20+',
+    exeperiences: '4+',
+    rating: 8, 
+  },
+  {
+    technology: 'MySql',
+    projects: '20+',
+    exeperiences: '4+',
+    rating: 7, 
+  },
+  {
+    technology: 'Laravel',
+    projects: '20+',
+    exeperiences: '2.5+',
+    rating: 8, 
+  },
+  // {
+  //   technology: 'React js',
+  //   projects: '20+',
+  //   exeperiences: '3+',
+  //   rating: 8, 
+  // },
+  // {
+  //   technology: 'Vue Js',
+  //   projects: '20+',
+  //   exeperiences: '2+',
+  //   rating: 8, 
+  // },
+  // {
+  //   technology: 'React native',
+  //   projects: '5+',
+  //   exeperiences: '1+',
+  //   rating: 6, 
+  // },
+  {
+    technology: 'Wordpress Theme Customization',
+    projects: '15+',
+    exeperiences: '2+',
+    rating: 7, 
+  },
+  // {
+  //   technology: 'Elementor Addon Developer',
+  //   projects: '10+',
+  //   exeperiences: '2+',
+  //   rating: 8, 
+  // },
+  // {
+  //   technology: 'Angular',
+  //   projects: '2+',
+  //   exeperiences: '1+',
+  //   rating: 6, 
+  // },
+  {
+    technology: 'Jekyll',
+    projects: '4+',
+    exeperiences: '1+',
+    rating: 5, 
+  },
+  {
+    technology: 'Jigsaw',
+    projects: '4+',
+    exeperiences: '1+',
+    rating: 5, 
+  },
+  {
+    technology: 'Gridsome',
+    projects: '4+',
+    exeperiences: '1+',
+    rating: 5, 
+  },
+]

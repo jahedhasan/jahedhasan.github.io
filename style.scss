@@ -1,0 +1,81 @@
+h1, h2, h3, h4, h5, h6, a {
+	color: teal;
+}
+a:hover {
+	color: darken(teal, 15%);
+}
+.sidenav {
+	border-right: 1px solid beige;
+	box-sizing: border-box;
+}
+img {
+	max-width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+.description {
+	p {
+		margin-bottom: 5px;
+	}
+}
+p.skill_title {
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.skill {
+	margin-top: 20px;
+	p {
+		margin-bottom: 10px;
+		@media print {
+			margin-bottom: 5px;
+		}
+	}
+	border-bottom: 1px solid beige;
+	.progress {
+		@media print {
+			display: none;
+		}
+	}
+}
+
+.experience {
+	margin-bottom: 15px;
+	border-bottom: 1px solid beige;
+	p.company {
+		margin-bottom: 8px;
+		color: teal;
+		font-weight: bold;
+	}
+	.role {
+		margin-bottom: 10px;
+	}
+}
+
+.my_info {
+	color: teal;
+	a {
+		color: darken(teal, 5%);
+		transition: all .3s;
+		&:hover {
+			color: darken(teal, 15%);
+		}
+	}
+}
+.footer {
+	h2 {
+		color: white;
+		@media screen and (max-width: 800px) {
+			font-size: 20px;
+		}
+		a {
+			color: #eee;
+			&:hover {
+				color: darken(teal, 5%);
+			}
+		}
+	}
+}
+.list-group-item {
+	overflow: auto;
+}
